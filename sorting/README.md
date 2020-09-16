@@ -136,7 +136,7 @@ buildHeap(A,n){
 }
 ```
 
-## \Theta (n) Sort
+## \THETA (n) Sort
 
 decision tree 기반의 sorting들은 최선의 경우에도 nlogn의 time complexity를 가지지(insert sort 제외).   
 하지만 약간의 제약조건 속에서 \Theta (n)의 time complexity를 가지는 sorting을 구현해 볼 수 있다구~
