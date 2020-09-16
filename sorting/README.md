@@ -136,10 +136,10 @@ buildHeap(A,n){
 }
 ```
 
-## \THETA (n) Sort
+## \theta (n) Sort
 
 decision tree 기반의 sorting들은 최선의 경우에도 nlogn의 time complexity를 가지지(insert sort 제외).   
-하지만 약간의 제약조건 속에서 \Theta (n)의 time complexity를 가지는 sorting을 구현해 볼 수 있다구~
+하지만 약간의 제약조건 속에서 \theta (n)의 time complexity를 가지는 sorting을 구현해 볼 수 있다구~
 
 ### counting sort
 
@@ -171,7 +171,7 @@ countingSort(A[],n){
 
 ### radix sort
 
-모든 원소가 d 자릿수 이하의 정수일 때 사용할 수 있는 정렬방식이고 time complexity 는 \Theta (nd)로 나타낼 수 있다.
+모든 원소가 d 자릿수 이하의 정수일 때 사용할 수 있는 정렬방식이고 time complexity 는 \theta (nd)로 나타낼 수 있다.
 1. 각 자릿수를 통해 정렬한다.
 2. 자릿수를 올려가며 계속 정렬한다
 너무 간단하쥬??  
