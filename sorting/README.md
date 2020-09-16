@@ -1,3 +1,8 @@
+<script type="text/javascript" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
+config=TeX-MML-AM_CHTML"
+</script>
+
 # ALL ABOUT SORTING
 
 안녕 여러분?? sorting에 대해서 알아보자구~~!~!~!
@@ -136,7 +141,7 @@ buildHeap(A,n){
 }
 ```
 
-## $$\theta$$ (n) Sort
+## $$ \theta $$ (n) Sort
 
 decision tree 기반의 sorting들은 최선의 경우에도 nlogn의 time complexity를 가지지(insert sort 제외).   
 하지만 약간의 제약조건 속에서 \theta (n)의 time complexity를 가지는 sorting을 구현해 볼 수 있다구~
