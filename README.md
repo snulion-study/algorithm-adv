@@ -11,11 +11,11 @@
     4. [boj9935](https://www.acmicpc.net/problem/9935): string-explosion
     5. [pro60059](https://programmers.co.kr/learn/courses/30/lessons/60059): bonus
   - 정렬
-    1. [boj1181](https://www.acmicpc.net/problem/1181): word sorting
-    2. [pro42747](https://programmers.co.kr/learn/courses/30/lessons/42747): H index
+    1. [boj1181](https://www.acmicpc.net/problem/1181): word sorting  **[필수]**
+    2. [pro42747](https://programmers.co.kr/learn/courses/30/lessons/42747): H index  **[필수]**
     3. [boj1946](https://www.acmicpc.net/problem/1946): new employee
-    4. [boj3649](https://www.acmicpc.net/problem/3649): robot project
-    5. [boj2170](https://www.acmicpc.net/problem/2170): draw line
+    4. [boj3649](https://www.acmicpc.net/problem/3649): robot project  
+    5. [boj2170](https://www.acmicpc.net/problem/2170): draw line  **[필수]**
   - 완전탐색
   - 깊이우선 탐색
   - 너비우선 탐색
