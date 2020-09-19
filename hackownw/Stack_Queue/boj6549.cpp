@@ -1,6 +1,5 @@
 #include <iostream>
 #include <stack>
-#include <queue>
 #include <vector>
 
 using namespace std;
@@ -63,39 +62,8 @@ int histogram_func(stack<int> histogram) {
 	return final;
 }
 
-int bridge(int bridge_length, int weight, vector<int> truck_weights) {
-	queue<int> on_bridge;
-	for (int i = 0; i < bridge_length;i++) on_bridge.push(0);
-	int sum=0;
-	int started = 0;
-	int arrived = 0;
-	int count = 0;
-	
-	while (started != (truck_weights.size())) {
-		count++;
-		sum -= on_bridge.front();
-		if (on_bridge.front() != 0) arrived++;
-		on_bridge.pop();
-		if (sum + truck_weights[started] <= weight) {
-			on_bridge.push(truck_weights[started]);
-			sum += truck_weights[started++];
-		}
-		else {
-			on_bridge.push(0);
-		}
-		
-	}
-
-	while (arrived != truck_weights.size()) {
-		count++;
-		if (on_bridge.front() != 0) arrived++;
-		on_bridge.pop();
-	}
-	return count;
-}
-
-int main() {
-	cout << "¸î °³?";
+int main(){
+    cout << "ï¿½ï¿½ ï¿½ï¿½?";
 	int num, component;
 	cin >> num;
 	cout << endl;
@@ -108,24 +76,5 @@ int main() {
 		//histogram_copy.push(component);
 	}
 	cout<<histogram_func(histogram)<<endl;
-
-	int bridge_length;
-	int weight;
-	vector<int> truck_weights;
-	cout << "´Ù¸® ±æÀÌ:";
-	cin >> bridge_length;
-	cout << endl;
-	cout << "ÁöÅÊÇÒ ¼ö ÀÖ´Â ¹«°Ô:";
-	cin >> weight;
-	cout << endl;
-	cout << "Æ®·° ¹«°Ô:" << endl;
-	cin >> component;
-	while (component != 0) {
-		truck_weights.push_back(component);
-		cin >> component;
-	}
-
-	cout << bridge(bridge_length, weight, truck_weights) << endl;
-
-	return 0;
+    return 0;
 }
