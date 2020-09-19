@@ -1,4 +1,8 @@
+#include <iostream>
+#include <stack>
+#include <vector>
 
+using namespace std;
 
 int bridge(int bridge_length, int weight, vector<int> truck_weights) {
 	queue<int> on_bridge;
@@ -35,13 +39,13 @@ int main() {
 	int bridge_length;
 	int weight;
 	vector<int> truck_weights;
-	cout << "�ٸ� ����:";
+	cout << "다리 길이:";
 	cin >> bridge_length;
 	cout << endl;
-	cout << "������ �� �ִ� ����:";
+	cout << "다리가 견딜 수 있는 무게:";
 	cin >> weight;
 	cout << endl;
-	cout << "Ʈ�� ����:" << endl;
+	cout << "트럭 무게:" << endl;
 	cin >> component;
 	while (component != 0) {
 		truck_weights.push_back(component);

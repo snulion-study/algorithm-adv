@@ -63,7 +63,7 @@ int histogram_func(stack<int> histogram) {
 }
 
 int main(){
-    cout << "�� ��?";
+    cout << "몇 개?";
 	int num, component;
 	cin >> num;
 	cout << endl;
