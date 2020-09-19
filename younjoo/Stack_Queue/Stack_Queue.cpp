@@ -45,7 +45,9 @@ int get_big(stack<int> histogram_copy) {
 	return biggest;
 }
 
-int histogram_func(stack<int> histogram, stack<int> histogram_copy) {
+int histogram_func(stack<int> histogram) {
+	stack<int> histogram_copy;
+	copy_stack(histogram, histogram_copy);
 	int final = 0;
 	while (!histogram.empty() &&!histogram_copy.empty()) {
 		
@@ -93,7 +95,7 @@ int bridge(int bridge_length, int weight, vector<int> truck_weights) {
 }
 
 int main() {
-	/*cout << "몇 개?";
+	cout << "몇 개?";
 	int num, component;
 	cin >> num;
 	cout << endl;
@@ -103,14 +105,13 @@ int main() {
 	for (int i = 0; i < num; i++) {
 		cin >> component;
 		histogram.push(component);
-		histogram_copy.push(component);
+		//histogram_copy.push(component);
 	}
-	cout<<histogram_func(histogram,histogram_copy)<<endl;*/
+	cout<<histogram_func(histogram)<<endl;
 
 	int bridge_length;
 	int weight;
 	vector<int> truck_weights;
-	int component;
 	cout << "다리 길이:";
 	cin >> bridge_length;
 	cout << endl;
