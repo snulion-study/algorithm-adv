@@ -1,3 +1,4 @@
+// comp()를 새로 정의하여 string 정렬.
 #include <algorithm>
 #include <iostream>
 #include <string>

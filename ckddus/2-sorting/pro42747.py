@@ -1,3 +1,4 @@
+# 간단하니 읽어보세용
 def solution(citations):
     answer = 0
     citations.sort()
