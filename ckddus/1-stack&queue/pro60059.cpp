@@ -3,11 +3,6 @@
 
 using namespace std;
 
-#include <string>
-#include <vector>
-
-using namespace std;
-
 bool check3(vector<vector<int>> key, vector<vector<int>> lock, int r, int c) {
     int N = lock.size();
     int M = key.size();
