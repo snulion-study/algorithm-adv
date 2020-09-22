@@ -3,6 +3,8 @@
 
 안녕 여러분?? sorting에 대해서 알아보자구~~!~!~!
 
+<img width="191" alt="스크린샷 2020-09-22 오후 11 21 34" src="https://user-images.githubusercontent.com/57203764/93895069-600add80-fd2a-11ea-8c88-779b925e63bb.png">
+
 ## basic sorting
 
 우선 basic sorting에 대해서 알아보자. basic sorting이란 아주 간단하게 생각하는 sorting이라고 할 수 있지.   
