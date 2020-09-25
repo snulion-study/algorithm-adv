@@ -1,8 +1,9 @@
 # algorithm-adv
 
-- 각 주마다 1명이 알고리즘 주제별 발제 및 발제자 문제 선정(약 5문제)
+- 각 주마다 1명이 알고리즘 주제별 발제 및 발제자 문제 선정(약 5문제, 필수문제 2-3개 선정)
 - 발제 후 그 다음 주까지 문제 풀기 (최소 2문제 이상)
 - 코드는 **boj1345.cpp, pro12423.py** 식의 형식의 파일 이름으로 올려주세요.
+- 각 코드에 주석 달아서 다른 사람이 이해하기 편하게 간단한 설명써주기.
 - 주제는 다음과 같다. (추후 변동될 수 있음)
   - 스택/큐
     1. [boj10828](https://www.acmicpc.net/problem/10828): basic-stack
@@ -11,12 +12,17 @@
     4. [boj9935](https://www.acmicpc.net/problem/9935): string-explosion
     5. [pro60059](https://programmers.co.kr/learn/courses/30/lessons/60059): bonus
   - 정렬
-    1. [boj1181](https://www.acmicpc.net/problem/1181): word sorting
-    2. [pro42747](https://programmers.co.kr/learn/courses/30/lessons/42747): H index
+    1. [boj1181](https://www.acmicpc.net/problem/1181): word sorting  **[필수]**
+    2. [pro42747](https://programmers.co.kr/learn/courses/30/lessons/42747): H index  **[필수]**
     3. [boj1946](https://www.acmicpc.net/problem/1946): new employee
-    4. [boj3649](https://www.acmicpc.net/problem/3649): robot project
-    5. [boj2170](https://www.acmicpc.net/problem/2170): draw line
+    4. [boj3649](https://www.acmicpc.net/problem/3649): robot project  
+    5. [boj2170](https://www.acmicpc.net/problem/2170): draw line  **[필수]**
   - 완전탐색
+    1. [boj1750](https://www.acmicpc.net/problem/1759): password **[필수]**
+    2. [pro42842](https://programmers.co.kr/learn/courses/30/lessons/42842) : carpet **[필수]**
+    3. [boj14500](https://www.acmicpc.net/problem/14500): tetromino 
+    4. [boj1107](https://www화acmicpc.net/problem/1107): remote_count **[필수]**
+    5. [boj17825](https://www.acmicpc.net/problem/17825): yut-nori [심화]
   - 깊이우선 탐색
   - 너비우선 탐색
   - 이분탐색
