@@ -19,28 +19,28 @@
   
     1. 중첩되는 반복문 사용시 ( if r == 4 ?)
 
-        for(int i = 0; i < n; ++i)       
-            for(int j = i+1; j < n; ++j)       
-                for(int k = j+1; k < n; ++k)
-                    for(int l = k+1; l < n; ++l)  
-                        cout << i << " "  << j << " " << k << " " << l << endl;
+            for(int i = 0; i < n; ++i)       
+                for(int j = i+1; j < n; ++j)       
+                    for(int k = j+1; k < n; ++k)
+                        for(int l = k+1; l < n; ++l)  
+                            cout << i << " "  << j << " " << k << " " << l << endl;
 
     2. 재귀호출 사용시 
    
-        void pick(int n, vector<int>& picked, int toPick) {
-          if(toPick == 0) 
-            {
-              print_pick(picked);
-              return;
-            }
-          int smallest = picked.empty() ? 0 : picked.back() + 1;
+            void pick(int n, vector<int>& picked, int toPick) {
+              if(toPick == 0) 
+                {
+                  print_pick(picked);
+                  return;
+                }
+              int smallest = picked.empty() ? 0 : picked.back() + 1;
 
-          for(int next = smallest; next < n; ++next) {
-            picked.push_back(next);
-            pick(n, picked, toPick-1);
-            picked.pop_back();
-          }
-        }
+              for(int next = smallest; next < n; ++next) {
+                picked.push_back(next);
+                pick(n, picked, toPick-1);
+                picked.pop_back();
+              }
+            }
 
 
 
@@ -49,8 +49,8 @@
     - 이 때, 각 조합을 하나의 n 비트 정수로 표현한다고 하면, 재귀 호출 대신, 1차원의 for loop으로 가능 
     - boj_17825 주사위 윷놀이 문제
 
-풀어보면 좋은 종만북 문제들 ㅎ_ㅎ
-https://algospot.com/judge/problem/read/PICNIC
-https://algospot.com/judge/problem/read/BOARDCOVER
+풀어보면 좋은 종만북 문제들 ㅎ_ㅎ         
+https://algospot.com/judge/problem/read/PICNIC 
+https://algospot.com/judge/problem/read/BOARDCOVER          
 
 [출처] 알고리즘 문제해결전략 - 구종만 
