@@ -18,7 +18,7 @@
     4. [boj3649](https://www.acmicpc.net/problem/3649): robot project  
     5. [boj2170](https://www.acmicpc.net/problem/2170): draw line  **[필수]**
   - 완전탐색
-    1. [boj1750](https://www.acmicpc.net/problem/1759): password **[필수]**
+    1. [boj1759](https://www.acmicpc.net/problem/1759): password **[필수]**
     2. [pro42842](https://programmers.co.kr/learn/courses/30/lessons/42842) : carpet **[필수]**
     3. [boj14500](https://www.acmicpc.net/problem/14500): tetromino 
     4. [boj1107](https://www.acmicpc.net/problem/1107): remote_count **[필수]**
