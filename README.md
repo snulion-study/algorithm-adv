@@ -21,7 +21,7 @@
     1. [boj1750](https://www.acmicpc.net/problem/1759): password **[필수]**
     2. [pro42842](https://programmers.co.kr/learn/courses/30/lessons/42842) : carpet **[필수]**
     3. [boj14500](https://www.acmicpc.net/problem/14500): tetromino 
-    4. [boj1107](https://www화acmicpc.net/problem/1107): remote_count **[필수]**
+    4. [boj1107](https://www.acmicpc.net/problem/1107): remote_count **[필수]**
     5. [boj17825](https://www.acmicpc.net/problem/17825): yut-nori [심화]
   - 깊이우선 탐색
   - 너비우선 탐색
