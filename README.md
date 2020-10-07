@@ -24,6 +24,11 @@
     4. [boj1107](https://www.acmicpc.net/problem/1107): remote_count **[필수]**
     5. [boj17825](https://www.acmicpc.net/problem/17825): yut-nori [심화]
   - 깊이우선 탐색
+    1. [pro43162](https://programmers.co.kr/learn/courses/30/lessons/43162): network **[필수]**
+    2. [pro43165](https://programmers.co.kr/learn/courses/30/lessons/43165): target number **[필수]**
+    3. [boj2606](https://www.acmicpc.net/problem/2606): virus **[필수]**
+    4. [boj2589](https://www.acmicpc.net/problem/2589): 보물섬 
+    5. [boj3055](https://www.acmicpc.net/problem/3055): 탈출
   - 너비우선 탐색
   - 이분탐색
   - 동적계회법(dynamic programming)
