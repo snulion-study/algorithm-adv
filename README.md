@@ -18,7 +18,17 @@
     4. [boj3649](https://www.acmicpc.net/problem/3649): robot project  
     5. [boj2170](https://www.acmicpc.net/problem/2170): draw line  **[필수]**
   - 완전탐색
+    1. [boj1759](https://www.acmicpc.net/problem/1759): password **[필수]**
+    2. [pro42842](https://programmers.co.kr/learn/courses/30/lessons/42842) : carpet **[필수]**
+    3. [boj14500](https://www.acmicpc.net/problem/14500): tetromino 
+    4. [boj1107](https://www.acmicpc.net/problem/1107): remote_count **[필수]**
+    5. [boj17825](https://www.acmicpc.net/problem/17825): yut-nori [심화]
   - 깊이우선 탐색
+    1. [pro43162](https://programmers.co.kr/learn/courses/30/lessons/43162): network **[필수]**
+    2. [pro43165](https://programmers.co.kr/learn/courses/30/lessons/43165): target number **[필수]**
+    3. [boj2606](https://www.acmicpc.net/problem/2606): virus 
+    4. [boj2589](https://www.acmicpc.net/problem/2589): 보물섬 
+    5. [boj3055](https://www.acmicpc.net/problem/3055): 탈출 **[필수]**
   - 너비우선 탐색
   - 이분탐색
   - 동적계회법(dynamic programming)
