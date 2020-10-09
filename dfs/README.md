@@ -8,7 +8,7 @@
 
 예를 들어 특정도시에서 다른 도시로 갈 수 있는지, 전자회로에서 특정 단자와 단자가 서로 연결되어 있는지를 탐색하는 알고리즘이다.
 
-![img1](/Users/jaeeun/Desktop/멋사 알고리즘/algorithm-adv/dfs/img/img1.png)
+![img1](./img/img1.png)
 
 >  한 방향으로 인접한 노드가 없을 때까지 (가장 깊은 노드까지) 탐색한 뒤 다른 방향으로 탐색을 하는 방식이다.
 
@@ -41,27 +41,27 @@ main()
 
 ### 그림으로 보기
 
-![dfs_1](/Users/jaeeun/Desktop/멋사 알고리즘/algorithm-adv/dfs/img/dfs_1.png)
+![dfs_1](./img/dfs_1.png)
 
 1. A를 시작노드로 한다
 
-![dfs_2](/Users/jaeeun/Desktop/멋사 알고리즘/algorithm-adv/dfs/img/dfs_2.png)
+![dfs_2](./img/dfs_2.png)
 
 2. A에 인접한 B,C를 스택에 넣는다
 
-![dfs_3](/Users/jaeeun/Desktop/멋사 알고리즘/algorithm-adv/dfs/img/dfs_3.png)
+![dfs_3](./img/dfs_3.png)
 
 3. 스택의 맨 위에 있는 C를 꺼내서 Visited 배열에 넣는다. C의 인접한 노드인 D, F가 스택에 넣는다.
 
-![dfs_4](/Users/jaeeun/Desktop/멋사 알고리즘/algorithm-adv/dfs/img/dfs_4.png)
+![dfs_4](./img/dfs_4.png)
 
 4. 스택의 맨 위에 있는 F를 꺼내서 Visited 배열에 넣는다. F에 인접한 노드인 D는 이미 Stack에 있으므로 skip~
 
-![dfs_5](/Users/jaeeun/Desktop/멋사 알고리즘/algorithm-adv/dfs/img/dfs_5.png)
+![dfs_5](./img/dfs_5.png)
 
 5. 스택의 맨 위에 있는 D를 꺼내서 Visited 배열에 넣어~. D에 인접한 C, F는 Visited 배열에 있으며 B는 스택에 있으므로 넘어가
 
-![dfs_6](/Users/jaeeun/Desktop/멋사 알고리즘/algorithm-adv/dfs/img/dfs_6.png)
+![dfs_6](./img/dfs_6.png)
 
 6. 스택의 맨 위에 있는 B를 꺼내서 Visited 배열에 넣어. 스택이 비어있으므로 탐색을 종료!
 
@@ -77,7 +77,7 @@ main()
 
 ## DFS 연습 
 
-![allPaths](/Users/jaeeun/Desktop/멋사 알고리즘/algorithm-adv/dfs/img/allPaths.png)
+![allPaths](./img/allPaths.png)
 
 
 
