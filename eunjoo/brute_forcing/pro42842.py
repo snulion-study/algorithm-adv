@@ -3,4 +3,4 @@ def solution(brown, yellow):
     for i in range(1, max(yellow, 2)):
     	# 1~yellow 개수까지 세로+가로가 brown개수와 같은 것을 찾으면 바로 return 
         if i*(yellow//i) == yellow and i+(yellow//i) == (brown-4)/2:
-            return [yellow//i+2, i+2] #yellow//i+2 가 항상 i보다 크1
+            return [yellow//i+2, i+2] #yellow//i+2 가 항상 i보다 크다(큰 값에서 시작하기 때문) 

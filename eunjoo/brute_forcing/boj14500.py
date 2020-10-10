@@ -3,6 +3,7 @@ input = sys.stdin.readline
 
 N, M = map(int, input().split())
 box = [list(map(int, input().split())) for _ in range(N)]
+# 모든 경우의 수를 설정해둔다.
 tet = [[[0,0], [0,1], [0,2], [0,3]], # ㅡ
 		 [[0,0], [1,0], [2,0], [3,0]],
 
@@ -29,6 +30,7 @@ tet = [[[0,0], [0,1], [0,2], [0,3]], # ㅡ
 		 [[0,0], [0,1], [1,1], [1,2]]] 
 
 ans = 0
+# N*M 의 모든 (col, row)에 대해서 위의 tetris 19개를 테스트한다.
 for col in range(N):
 	for row in range(M):
 		for i in range(19):
@@ -38,6 +40,7 @@ for col in range(N):
 				if x_val< 0 or x_val>=N or y_val<0 or y_val>=M:
 					break
 				sum += box[x_val][y_val]
+            # 구한 값과 원래 값 중에서 큰 값이 정답 
 			ans = max(ans, sum)		
 print(ans)
 

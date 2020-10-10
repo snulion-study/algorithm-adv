@@ -16,6 +16,9 @@ for combi in combis:
 		print("".join(combi))
 
 
+'''
+    import 된 조합 library가 아닌 recursive로 직접 구현한 version
+'''
 # def recursive_version():
 # 	L, C = map(int, input().split())
 # 	moeum = ['a', 'e', 'i', 'o', 'u']
