@@ -30,6 +30,11 @@
     4. [boj2589](https://www.acmicpc.net/problem/2589): 보물섬 
     5. [boj3055](https://www.acmicpc.net/problem/3055): 탈출 **[필수]**
   - 너비우선 탐색
+    1. [boj1697](https://www.acmicpc.net/problem/1697): 숨바꼭질 **[필수]**
+    2. [boj2644](https://www.acmicpc.net/problem/2644): 촌수계산 **[필수]**
+    3. [boj2589](https://www.acmicpc.net/problem/2589): 보물섬 **[필수]**
+    4. [boj2146](https://www.acmicpc.net/problem/2146): 다리 만들기
+    5. [boj16236](https://www.acmicpc.net/problem/16236): 아기상어 **[심화]**
   - 이분탐색
   - 동적계회법(dynamic programming)
   - 해시
