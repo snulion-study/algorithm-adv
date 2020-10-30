@@ -1,6 +1,4 @@
-# BFS
-
-## Breadth-First-Search, 너비 우선 탐색
+# Breadth-First-Search, 너비 우선 탐색
 
 **루트노드에서 시작해서 인접한 노드를 먼저 탐색하는 방법**
 
