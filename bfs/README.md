@@ -10,6 +10,14 @@
 ![bfs](https://t1.daumcdn.net/cfile/tistory/216E924B5858D62B37)
 
 
+![bfs](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbLMK90%2FbtqKrJ9aUXI%2FhvWf1krFJb6R0WlIKx1Vk0%2Fimg.gif)
+
+### 장점
+
+1. 노드의 수가 적고 깊이가 얕은 경우 빠르게 동작할 수 있다.
+2. 단순 검색 속도가 깊이 우선 탐색(DFS)보다 빠름
+3. 너비를 우선 탐색하기에 답이 되는 경로가 여러개인 경우에도 최단경로임을 보장한다.
+4. 최단경로가 존재한다면 어느 한 경로가 무한히 깊어진다해도 최단경로를 반드시 찾을 수 있다.
 
 
 
@@ -27,6 +35,7 @@
 
 ![image-20201027170555966](https://gmlwjd9405.github.io/images/algorithm-dfs-vs-bfs/bfs-example.png)
 
+<br>
 
 
 ## 코드
