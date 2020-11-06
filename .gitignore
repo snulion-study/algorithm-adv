@@ -968,3 +968,4 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/c++,java,python,intellij,pycharm,visualstudio,visualstudiocode,osx,windows,c,eclipse,clion,linux
+.vscode/settings.json
