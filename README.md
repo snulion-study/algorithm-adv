@@ -36,6 +36,11 @@
     4. [boj2146](https://www.acmicpc.net/problem/2146): 다리 만들기
     5. [boj16236](https://www.acmicpc.net/problem/16236): 아기상어 **[심화]**
   - 이분탐색
+    1. [boj1920](https://www.acmicpc.net/problem/1920): 수 찾기 **[필수]**
+    2. [boj2110](https://www.acmicpc.net/problem/2110): 공유기 설치 **[필수]**
+    3. [boj43236](https://programmers.co.kr/learn/courses/30/lessons/43236): 징검다리 **[필수]**
+    4. [boj1300](https://www.acmicpc.net/problem/1300): K번째 수
+    5. [boj12015](https://www.acmicpc.net/problem/12015): 가장 긴 증가하는 부분 수열 2 
   - 동적계회법(dynamic programming)
   - 해시
   - 힙
